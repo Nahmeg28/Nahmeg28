@@ -39,8 +39,8 @@ Screenshots and more on my **[portfolio](https://nahomulugeta-port.vercel.app/)*
 **Mobile:** Flutter · Dart · Java (Android platform channels) · SQLite / sqflite · Hive
 **Architecture:** BLoC · Stacked (MVVM) · Provider · get_it · repository and service layers
 **Integrations:** REST APIs (.NET, NestJS) · Firebase Cloud Messaging · Supabase · maps and routing · fiscal printers · QR and mobile-money payments
-**Also:** C# / .NET · TypeScript · Figma (UI/UX design)
-**Learning now:** JavaScript → React
+**Web:** JavaScript · TypeScript · React
+**Also:** C# / .NET · Figma (UI/UX design)
 
 ---
 
