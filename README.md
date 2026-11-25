@@ -17,7 +17,7 @@ I build production mobile and operational systems for commerce, logistics, POS a
   - Dual-provider routing with automatic fallback, retry and route caching.
   - Live trips that react when a customer cancels or changes the address mid-delivery.
 - **HuluBeje** (consumer super-app, 60K+ downloads)
-  - Runs as a mini-app inside telebirr and Bank of Abyssinia's super-app; I led the client-side integration with Bank of Abyssinia, working with their team.
+  - Runs as a mini-app inside telebirr and Bank of Abyssinia's app. For Bank of Abyssinia I built bank-validated single sign-on and fixed location inside their app, testing both with the bank's team.
   - Post-payment order changes between dine-in, pickup and delivery.
   - [Google Play](https://play.google.com/store/apps/details?id=com.cnetsoftwares.cnetpay_client) · [App Store](https://apps.apple.com/us/app/hulubeje-hulu-beje/id1661524972)
 
@@ -34,8 +34,9 @@ How I designed these systems: problem, constraints, architecture diagrams, decis
 - **[Making the fiscal printer and the ERP agree](https://github.com/Nahmeg28/engineering-case-studies/blob/main/05-fiscal-reconciliation.md)**: automatic reconciliation driven by a tested decision table.
 - **[Debugging notebook: five production bugs](https://github.com/Nahmeg28/engineering-case-studies/blob/main/06-debugging-notebook.md)**: symptom, root cause, fix, lesson.
 - **[E-invoicing with the tax authority's signed QR](https://github.com/Nahmeg28/engineering-case-studies/blob/main/07-e-invoicing-signed-qr.md)**: Ministry of Revenues integration, printer selection, failing early.
+- **[Changing an order after you've paid](https://github.com/Nahmeg28/engineering-case-studies/blob/main/08-change-order-after-payment.md)**: server-priced switches between dine-in, pickup and delivery in HuluBeje.
 
-Everything I shipped on the POS, release by release: **[contributions](https://github.com/Nahmeg28/engineering-case-studies/blob/main/CONTRIBUTIONS.md)**. Shorter design decisions: **[engineering notes](https://github.com/Nahmeg28/engineering-case-studies/blob/main/engineering-notes/README.md)**.
+Everything I shipped across all three apps: **[contributions](https://github.com/Nahmeg28/engineering-case-studies/blob/main/CONTRIBUTIONS.md)**. Shorter design decisions: **[engineering notes](https://github.com/Nahmeg28/engineering-case-studies/blob/main/engineering-notes/README.md)**.
 
 Screenshots and more on my **[portfolio](https://nahomulugeta-port.vercel.app/)**.
 
