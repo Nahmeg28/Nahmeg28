@@ -29,6 +29,12 @@ How I designed these systems: problem, constraints, architecture diagrams, decis
 
 - **[Selling through outages: offline and LAN mode for a production POS](https://github.com/Nahmeg28/engineering-case-studies/blob/main/01-offline-lan-pos.md)**: encrypted SQLite, an on-device branch server, sync and concurrency.
 - **[Routing that doesn't strand drivers: dual-provider fallback](https://github.com/Nahmeg28/engineering-case-studies/blob/main/02-dual-provider-routing.md)**: retry with backoff, caching, provider abstraction.
+- **["Saved" should mean saved: offline mode that survives power cuts](https://github.com/Nahmeg28/engineering-case-studies/blob/main/03-offline-durability.md)**: root-causing data loss, encrypted SQLite, sync races.
+- **[From a Unilever order to a fiscal receipt, unattended](https://github.com/Nahmeg28/engineering-case-studies/blob/main/04-unilever-order-pipeline.md)**: third-party integration with fiscal hardware.
+- **[Making the fiscal printer and the ERP agree](https://github.com/Nahmeg28/engineering-case-studies/blob/main/05-fiscal-reconciliation.md)**: automatic reconciliation driven by a tested decision table.
+- **[Debugging notebook: five production bugs](https://github.com/Nahmeg28/engineering-case-studies/blob/main/06-debugging-notebook.md)**: symptom, root cause, fix, lesson.
+
+Everything I shipped on the POS, release by release: **[contributions](https://github.com/Nahmeg28/engineering-case-studies/blob/main/CONTRIBUTIONS.md)**.
 
 Screenshots and more on my **[portfolio](https://nahomulugeta-port.vercel.app/)**.
 
