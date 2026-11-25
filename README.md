@@ -33,8 +33,9 @@ How I designed these systems: problem, constraints, architecture diagrams, decis
 - **[From a Unilever order to a fiscal receipt, unattended](https://github.com/Nahmeg28/engineering-case-studies/blob/main/04-unilever-order-pipeline.md)**: third-party integration with fiscal hardware.
 - **[Making the fiscal printer and the ERP agree](https://github.com/Nahmeg28/engineering-case-studies/blob/main/05-fiscal-reconciliation.md)**: automatic reconciliation driven by a tested decision table.
 - **[Debugging notebook: five production bugs](https://github.com/Nahmeg28/engineering-case-studies/blob/main/06-debugging-notebook.md)**: symptom, root cause, fix, lesson.
+- **[E-invoicing with the tax authority's signed QR](https://github.com/Nahmeg28/engineering-case-studies/blob/main/07-e-invoicing-signed-qr.md)**: Ministry of Revenues integration, printer selection, failing early.
 
-Everything I shipped on the POS, release by release: **[contributions](https://github.com/Nahmeg28/engineering-case-studies/blob/main/CONTRIBUTIONS.md)**.
+Everything I shipped on the POS, release by release: **[contributions](https://github.com/Nahmeg28/engineering-case-studies/blob/main/CONTRIBUTIONS.md)**. Shorter design decisions: **[engineering notes](https://github.com/Nahmeg28/engineering-case-studies/blob/main/engineering-notes/README.md)**.
 
 Screenshots and more on my **[portfolio](https://nahomulugeta-port.vercel.app/)**.
 
